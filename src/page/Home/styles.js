@@ -15,6 +15,7 @@ export const Content = styled.View`
 
 export const Record = styled(RectButton)`
   height: 100px;
+  margin-bottom: 30px;
 `;
 
 export const Play = styled.View`
@@ -23,4 +24,14 @@ export const Play = styled.View`
   align-self: stretch;
   margin: 0 50px;
   margin-top: 100px;
+`;
+
+export const Recored = styled.View`
+  justify-content: space-between;
+  align-self: stretch;
+  margin: 0 45px;
+`;
+
+export const Space = styled.View`
+  height: 10px;
 `;
